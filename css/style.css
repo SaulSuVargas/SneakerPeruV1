@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+@import url('bootstrap-icons-1.11.3/font/bootstrap-icons.min.css');
+:root{
+    --color1: #034AA6;
+    --color2: #77BF0A;
+    --color3: #F2B705;
+    --color4: #F28705;
+    --color5: #D92323;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-negro-2: #1e1d1d;
+    --color-gris-claro: #CCCCCC;
+    --color-gris-oscuro: #333333;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: -4px;
+}
+h2{
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -2px;
+    margin-bottom: 1.5rem;
+}
+h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.img {
+    margin-bottom: 1rem;
+}
+
+.img_empresa{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img_conferencia{
+    margin-top: 2rem;
+}
+
+.footer_p{
+    text-align: center;
+}
+#nosotros{
+    background-color: var(--color-negro-2);
+    color: var(--color-blanco);
+}
+#historia{
+    background-color: var(--color3);
+}
+#valores{
+    background-color: var(--color-negro);
+    color: var(--color-gris-claro);
+}
+#valores i{
+    color: var(--color5);
+    font-size: 3rem;
+}
+#cursos{
+    background-color: var(--color1);
+    color: var(--color-blanco);
+}
+#main-footer{
+    background-color: var(--color-gris-oscuro);
+    color: var(--color-gris-claro);
+    padding: 45px 0;
+}
+.padded{
+    padding: 90px 0;/* arriba y abajo / izquierda y derecha */
+}
+
+@media(max-width:768px){
+    #empresa{
+        padding: 90px 0;
+    }
+}
+@media(max-width:992px){
+    #conferencia{
+        padding: 90px 0;
+    }
+}
+@media (min-width: 1600px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1520px;
+    }
+}
